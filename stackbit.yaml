@@ -4,7 +4,6 @@ buildCommand: npm run build
 publishDir: public
 staticDir: static
 uploadDir: uploads
-dataDir: src/data
 pagesDir: src/content
 excludePages:
   - admin
