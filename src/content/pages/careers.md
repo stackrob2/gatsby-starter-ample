@@ -21,6 +21,7 @@ layout_flexible:
       title: Job Posting Column
       blocks:
       - template: component-frame
+        type: component-frame
         margin_bottom: '0'
         src: "/"
 seo:
