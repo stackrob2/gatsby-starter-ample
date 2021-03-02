@@ -18,16 +18,16 @@ layout_flexible:
       title: Main Column
       blocks:
       - template: component-image
-        type: component-image
+        type: component_image
         image_src: "/uploads/blueprint/rectangle.jpg"
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           This is the home page. It shows an example of adding multiple components to a section within the page.
 
           To see a basic content page, with all types of content, click the button below.
       - template: component-button
-        type: component-button
+        type: component_button
         label: View Content Page
         url: "/content-page"
 seo:

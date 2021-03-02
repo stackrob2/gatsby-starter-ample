@@ -73,7 +73,7 @@ models:
             items:
               type: model
               models:
-                - component-container
+                - component_container
   seo:
     type: object
     label: SEO metadata
@@ -110,7 +110,7 @@ models:
             name: description
           - type: image
             name: image_src
-  component-container:
+  component_container:
     type: object
     label: Component Container
     fields:
@@ -137,8 +137,8 @@ models:
         items:
           type: model
           models:
-            - component-column
-  component-column:
+            - component_column
+  component_column:
     type: object
     label: Component Column
     fields:
@@ -182,12 +182,12 @@ models:
         items:
           type: model
           models:
-            - component-frame
-            - component-form
-            - component-content
-            - component-button
-            - component-image
-  component-frame:
+            - component_frame
+            - component_form
+            - component_content
+            - component_button
+            - component_image
+  component_frame:
     type: object
     label: Component Frame
     fields:
@@ -206,7 +206,7 @@ models:
           - '80'
           - '100'
           - '120'
-  component-form:
+  component_form:
     type: object
     label: Component Form
     fields:
@@ -215,7 +215,7 @@ models:
         const: component-form
       - type: string
         name: form
-  component-button:
+  component_button:
     type: object
     label: Component Button
     fields:
@@ -226,7 +226,7 @@ models:
         name: label
       - type: string
         name: url
-  component-content:
+  component_content:
     type: object
     label: Component Content
     fields:
@@ -235,12 +235,12 @@ models:
         const: component-content
       - type: markdown
         name: body_md
-  component-image:
+  component_image:
     type: object
     label: Component Form
     fields:
       - type: string
         name: template
-        const: component-form
+        const: component-image
       - type: image
         name: image_src

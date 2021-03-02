@@ -18,7 +18,7 @@ layout_flexible:
       title: Main Column
       blocks:
       - template: component-form
-        type: component-form
+        type: component_form
         form: src/content/forms/contact-form.md
 seo:
   title: ''

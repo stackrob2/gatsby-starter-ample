@@ -21,7 +21,7 @@ layout_flexible:
       title: Main Column
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Single, full-width column
 
@@ -43,7 +43,7 @@ layout_flexible:
       title: Main Column
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Single column, half width
 
@@ -65,7 +65,7 @@ layout_flexible:
       title: Left
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Two half-width columns
 
@@ -80,7 +80,7 @@ layout_flexible:
       title: Right
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           Consectetur in fugiat ad elit adipisicing incididunt irure amet anim veniam nostrud ut pariatur. Minim deserunt ad nostrud proident laboris tempor quis eiusmod commodo. Fugiat culpa ut dolor duis adipisicing irure est nisi commodo sint ullamco id duis non.
 
@@ -100,7 +100,7 @@ layout_flexible:
       title: Main
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Main column with sidebar
 
@@ -116,7 +116,7 @@ layout_flexible:
         text_align: ''
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: Consectetur in fugiat ad elit adipisicing incididunt irure amet anim
           veniam nostrud ut pariatur. Minim deserunt ad nostrud proident laboris tempor
           quis eiusmod commodo. Fugiat culpa ut dolor duis adipisicing irure est nisi
@@ -135,7 +135,7 @@ layout_flexible:
       title: First
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Three columns
 
@@ -150,7 +150,7 @@ layout_flexible:
       title: Second
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           Aliquip anim irure ea nulla aliquip. Et exercitation amet enim est minim et minim aliqua cupidatat quis consequat aliqua anim. Ut non magna duis cupidatat sint. Irure commodo consequat enim irure minim enim.
 
@@ -163,7 +163,7 @@ layout_flexible:
       title: Third
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           Qui fugiat in et ad exercitation consequat. Aliqua ad Lorem reprehenderit anim Lorem ipsum incididunt sit. Amet Lorem commodo esse aliquip laboris dolor. Consectetur aliqua ut dolore laboris ex ipsum nulla sint.
 
@@ -180,7 +180,7 @@ layout_flexible:
       title: First
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Four columns
 
@@ -195,7 +195,7 @@ layout_flexible:
       title: Second
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: Incididunt duis amet nisi ullamco ad enim ipsum voluptate.
     - template: component-column
       config:
@@ -205,7 +205,7 @@ layout_flexible:
       title: Third
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: Quis reprehenderit irure esse velit ad aliqua ipsum dolore culpa
           cillum eiusmod proident dolore ad.
     - template: component-column
@@ -216,7 +216,7 @@ layout_flexible:
       title: Fourth
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: Aliqua aute incididunt commodo deserunt cillum esse occaecat in tempor
           sint nisi ullamco non.
     title: Container - Four Columns
@@ -233,7 +233,7 @@ layout_flexible:
       title: Heading
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           ## Stacked columns
 
@@ -246,7 +246,7 @@ layout_flexible:
       title: Main
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: |-
           Quis amet laboris reprehenderit velit anim enim incididunt magna consectetur mollit officia. Incididunt adipisicing ea aliqua dolor nulla amet. Labore est ut non amet elit consequat aliquip incididunt. Sit excepteur proident est quis ea consectetur et. Ex sunt commodo incididunt culpa enim proident. Id fugiat eu velit sint sit ea.
 
@@ -259,7 +259,7 @@ layout_flexible:
       title: Sidebar
       blocks:
       - template: component-content
-        type: component-content
+        type: component_content
         body_md: Incididunt duis amet nisi ullamco ad enim ipsum voluptate.
 seo:
   title: ''
