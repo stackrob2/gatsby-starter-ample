@@ -1,13 +1,9 @@
 const postcssConfig = require("./postcss.config")
+const siteMetadata = require('./site-metadata.json')
 const path = require("path")
 
 module.exports = {
-  siteMetadata: {
-    title: `Ample's Gatsby Starter`,
-    description: `The base for a new Ample development project.`,
-    author: `@helloample`,
-    siteUrl: `https://www.site-url.com`
-  },
+  siteMetadata: siteMetadata,
   plugins: [
     {
       resolve: `gatsby-alias-imports`,
