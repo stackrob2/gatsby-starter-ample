@@ -3,23 +3,13 @@ ssgName: gatsby
 buildCommand: npm run build
 publishDir: public
 staticDir: static
-uploadDir: images
+uploadDir: uploads
 dataDir: src/data
 pagesDir: src/content
 excludePages:
   - admin
   - forms
   - redirects
-logicFields:
-  - blog_feed_section.recent_count
-metadata:
-  title: Ample
-  description: Ample Starter theme
-  author: Ample
-  authorURL: ''
-  images:
-    small: ''
-    large: ''
 models:
   config:
     type: config

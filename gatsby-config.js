@@ -15,13 +15,6 @@ module.exports = {
         }
       }
     },
-    // TODO: Remove if using Forestry or no CMS, otherwise uncomment.
-    // {
-    //   resolve: `gatsby-ample-importer`,
-    //   options: {
-    //     config: path.join(__dirname, "importer.config.js")
-    //   }
-    // },
     `gatsby-ample-schema`,
     `gatsby-ample-pages`,
     `gatsby-ample-seo`,
