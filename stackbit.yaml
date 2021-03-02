@@ -10,7 +10,6 @@ excludePages:
   - admin
   - forms
   - redirects
-objectTypeKey: template
 logicFields:
   - blog_feed_section.recent_count
 metadata:
