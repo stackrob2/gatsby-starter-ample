@@ -9,6 +9,8 @@ excludePages:
   - admin
   - forms
   - redirects
+logicFields:
+  - config.siteUrl
 models:
   config:
     type: config
